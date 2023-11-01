@@ -38,30 +38,42 @@ border-radius: 5px;
   width: 30vw;
   height: 71vh;
   opacity: 0.9;
+  color: aliceblue;
 }
 .text {
   display: flex;
-  justify-content: center;
+
 
   margin-bottom: 30vh;
   margin-left: 3vw;
-  font-size: 25px;
+  
   position: absolute;
 
   width: 24vw;
   height: 35vh;
 }
-.table {
+
+span{
+  margin-left: 10px;
+  
+}
+.table{
   width: 24vw;
-  margin-bottom: 30vh;
-  margin-left: 3vw;
+border: 10px;
+font-size: 25px;
+
+
 }
-.td-1 {
+.td-1{
   text-align: start;
+ 
 }
-.td-2 {
+.td-2{
   text-align: end;
 }
+
+
+
 .box {
   display: flex;
   justify-content: center;
@@ -71,6 +83,7 @@ border-radius: 5px;
   margin-left: 3vw;
   width: 24vw;
   height: 16vh;
+ 
 }
 .box > div {
   display: flex;
@@ -99,7 +112,7 @@ border-radius: 5px;
   margin-left: 3vw;
   position: absolute;
   font-size: 30px;
-  color: rgb(8, 8, 8);
+  color: rgb(245, 245, 245);
 
   height: 9vh;
   width: 24vw;
