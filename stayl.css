@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(pictures/1.jpg);
+  background-size: cover;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  width: 53vw;
+  height: 75vh;
+
+  display: flex;
+}
+
+.content-one {
+  background-image: url(pictures/2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-left: 25px;
+  color: rgb(250, 249, 248);
+  width: 23vw;
+  height: 75vh;
+  opacity: 0.9;
+ border-radius: 15px;
+}
+
+.content-too {
+  display: flex;
+  align-items: center;
+border-radius: 5px;
+  margin: auto;
+  background-color: rgb(60, 92, 136);
+  width: 30vw;
+  height: 71vh;
+  opacity: 0.9;
+}
+.text {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 30vh;
+  margin-left: 3vw;
+  font-size: 25px;
+  position: absolute;
+
+  width: 24vw;
+  height: 35vh;
+}
+.table {
+  width: 24vw;
+  margin-bottom: 30vh;
+  margin-left: 3vw;
+}
+.td-1 {
+  text-align: start;
+}
+.td-2 {
+  text-align: end;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  margin-bottom: 15vh;
+  margin-left: 3vw;
+  width: 24vw;
+  height: 16vh;
+}
+.box > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6vw;
+  height: 16vh;
+
+  background-color: rgb(32, 145, 221);
+  border: 2px rgb(14, 8, 51) solid;
+}
+.box > div:hover {
+  box-shadow: -3px 0px 10px 10px rgb(164, 213, 230) inset;
+
+  text-shadow: 1px 1px rgb(132, 114, 248);
+}
+
+.item5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  background-color: rgb(1, 55, 155);
+  border: 2px rgb(14, 8, 51) solid;
+  margin-bottom: 3vh;
+  margin-left: 3vw;
+  position: absolute;
+  font-size: 30px;
+  color: rgb(8, 8, 8);
+
+  height: 9vh;
+  width: 24vw;
+}
+.item5:hover {
+  box-shadow: -3px -1px 5px 5px rgb(14, 8, 51) inset;
+
+  text-shadow: 1px 1px rgb(132, 114, 248);
+}
+
+.content-one:hover {
+  box-shadow: -1px 2px 5px 5px rgb(136, 200, 221);
+  opacity: 1;
+}
+.content-too:hover {
+  box-shadow: -1px 2px 5px 5px rgb(136, 200, 221);
+  opacity: 1;
+}
